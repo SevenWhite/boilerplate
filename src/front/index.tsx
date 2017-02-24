@@ -1,5 +1,5 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import Hello from "./components/Hello";
+import routes from "./routes";
 
-ReactDOM.render(<Hello compiler="TypeScript" framework="react"/>, document.getElementById("root"));
+ReactDOM.render(routes, document.getElementById("root"));
