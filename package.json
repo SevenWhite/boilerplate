@@ -4,7 +4,10 @@
   "license": "MIT",
   "scripts": {
     "start": "node ./dist/bin/start.js",
-    "build": "tsc"
+    "server:start": "nodemon ./dist/bin/start.js",
+    "front:start": "webpack --watch",
+    "server:build": "tsc",
+    "front:build": "webpack -p"
   },
   "dependencies": {
     "@t2ee/vader": "^0.1.8",
