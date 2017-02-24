@@ -1,0 +1,4 @@
+.idea
+dist
+public/js/bundle.*
+node_modules

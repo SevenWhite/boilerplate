@@ -1,0 +1,31 @@
+{
+  "name": "react-ts-boilerplate",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./dist/bin/start.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@t2ee/vader": "^0.1.8",
+    "co": "^4.6.0",
+    "koa": "next",
+    "koa-ejs": "^3.0.0",
+    "koa-router": "next",
+    "koa-static": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/es6-promise": "^0.0.32",
+    "@types/koa": "^2.0.38",
+    "@types/koa-static": "^2.0.22",
+    "@types/node": "^7.0.5",
+    "@types/react": "^15.0.12",
+    "@types/react-dom": "^0.14.23",
+    "awesome-typescript-loader": "^3.0.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "source-map-loader": "^0.1.6",
+    "typescript": "^2.2.1",
+    "webpack": "next"
+  }
+}
