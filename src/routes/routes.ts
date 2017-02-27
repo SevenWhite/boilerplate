@@ -13,7 +13,7 @@ export default function (app: Koa) {
 	}
 }
 
-router.get('/', getHome);
+router.get('*', getHome);
 
 async function getHome(ctx: Context) {
 	await ctx.render("home", {greeting: "Hello, typescript!"});

@@ -2,14 +2,12 @@
 Typescript react redux universal boilerplate
 
 
-# Build (development)
-- `yarn global add typescript`
-- `tsc`
-
 ## Run (development)
+- `yarn global add typescript`
 - `yarn`
 - `yarn run server:start`
 - `yarn run front:start`
+- `tsc` for building server
 - enjoy!
 
 ## Build (production)

@@ -7,6 +7,7 @@ export default class Sidebar extends React.Component<undefined, undefined> {
 			<ul>
 				<li><Link to="/">Home page</Link></li>
 				<li><Link to="/hello">Hello page</Link></li>
+				<li><Link to="/counter">Counter page</Link></li>
 			</ul>
 		)
 	}
